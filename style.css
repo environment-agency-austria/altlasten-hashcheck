@@ -1,0 +1,26 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+#maindiv {
+  height: 100%; 
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+}
+
+.inputelem {
+  margin: 2px
+}
+
+#map {
+  float: left;
+  position: relative;
+  height: 90%;
+  width: 100%;
+  min-height: 0;
+  flex: 1; /* Fill the available space */
+}
