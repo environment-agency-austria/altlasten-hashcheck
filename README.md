@@ -11,4 +11,4 @@ Dieses Tool stellt eine Beispiel-Implementierung bereit, die aufzeigen soll, wie
 
 Die Geometrie im GeoJSON-Format wird mittels SHA-256 ge-hashed und anschließend Base64-URL kodiert, siehe [https://github.com/environment-agency-austria/altlasten-hashcheck/blob/main/main.js Funktion sha256Base64.](https://github.com/environment-agency-austria/altlasten-hashcheck/blob/main/main.js#L38C16-L38C28)
 
-Bei Teilflächen wird die Prüfsumme stehts aus der Kombination der Geometrien von Haupt- und Teilflächen gebildet.
+Bei Teilflächen wird die Prüfsumme stets aus der Kombination der Geometrien von Haupt- und Teilflächen gebildet.
